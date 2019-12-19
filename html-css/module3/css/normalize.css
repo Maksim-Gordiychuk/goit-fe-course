@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">lifestyle</a></li>
+                <li><a href="">photodiary</a></li>
+                <li><a href="">music</a></li>
+                <li><a href="">travel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <article>
+                    <img src="./img/image.jpg" alt="" width="420">
+                    <img src="" alt="">
+                    <p>
+                        Lifestyle
+                    </p>
+                    <h2>More than jast a musical festival</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur soluta excepturi adipisci!
+                        Voluptas earum soluta asperiores amet fugit excepturi in facere alias quas error. Eaque quaerat
+                        porro dolor tenetur doloribus delectus placeat illo maiores reiciendis magni eligendi corrupti
+                        sunt
+                        voluptas, commodi deleniti tempore! Possimus veritatis id exercitationem, ab at sit rerum nobis.
+                        Ipsam quia necessitatibus nesciunt sit, provident omnis et minus neque, tenetur accusamus
+                        repellendus placeat quas ex, libero natus voluptas cumque adipisci incidunt praesentium non
+                        tempora.
+                    </p>
+                </article>
+
+                <article>
+                    <img src="./img/Filtro fotografico 5 copia 2.jpg" alt="" width="420">
+                    <p>
+                        lifestyle
+                    </p>
+                    <h2>Life tastes better with coffe</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi neque nesciunt eveniet
+                        quaerat,
+                        eos voluptatem. Dolor iste vitae minima sit excepturi impedit quisquam assumenda qui aliquam
+                        aliquid? Labore, quae natus dolor accusamus veritatis fugiat laudantium non ducimus ex vel
+                        tempore
+                        repellat facilis. Nisi facere quam sit quae incidunt, magni temporibus obcaecati dolorum
+                        adipisci
+                        autem esse aperiam eaque! Aliquid iste voluptatum sint, veniam consequatur ab corrupti
+                        consectetur
+                        sunt corporis adipisci, voluptas aliquam nesciunt, accusantium repellendus perspiciatis vel
+                        reprehenderit!
+                    </p>
+                </article>
+
+                <article>
+                    <img src="./img/image (1).jpg" alt="" width="420">
+                    <p>
+                        photodiary
+                    </p>
+                    <h2>American dream</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et hic doloremque maxime odio nemo
+                        vitae.
+                        Sit sint nulla architecto quas laborum? Vel praesentium iste necessitatibus, asperiores officiis
+                        quod. Enim ab veritatis nihil quibusdam nobis iste amet modi, minima molestias. Natus tempora
+                        facere
+                        reiciendis praesentium eligendi assumenda, enim aperiam soluta labore nulla obcaecati excepturi
+                        repudiandae dicta! Quis, voluptatibus. Reiciendis eius expedita debitis unde, dolore sit fuga
+                        aut
+                        deserunt impedit blanditiis nulla. Eligendi, illo modi in officia error eos.
+                    </p>
+                </article>
+
+                <article>
+                    <img src="./img/image (2).jpg" alt="" width="420">
+                    <p>
+                        photodiary
+                    </p>
+                    <h2>A day exploring the Alps</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quo vel commodi quas sed esse!
+                        Deleniti modi eligendi, doloremque pariatur quod suscipit quasi sit quas molestias vero
+                        quibusdam
+                        consequuntur natus rem odit recusandae optio voluptate amet ullam officiis a temporibus? Sequi
+                        natus
+                        illo tempore minima quis quisquam eos amet, iste possimus atque blanditiis, magnam impedit ipsam
+                        cupiditate ullam velit voluptas laborum labore perferendis, repellat saepe! Libero tempora
+                        sapiente
+                        praesentium temporibus saepe aperiam quibusdam quod dicta accusamus beatae.
+                    </p>
+                </article>
+                <button>load More</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
