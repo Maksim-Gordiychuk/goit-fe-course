@@ -1,12 +1,11 @@
+
 body {
     font-family: 'Playfair Display', "Arial", sans-serif;
     color: #626262;
-    font-size: 0px;
-    line-height: 0px;
 }
 
 .wrapper {
-    width: 900px;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -20,7 +19,11 @@ body {
     list-style: none;
     font-size: 0px;
     box-sizing: border-box;
+    padding: 0;
 }
+.header__nav-item:last-child{
+    margin-right: 0;
+    }
 
 .header__nav-item {
     display: inline-block;
@@ -34,7 +37,6 @@ body {
     text-decoration: none;
     line-height: 17px;
     padding: 4px;
-    margin: 10px;
 }
 
 .header__nav-item :hover{
@@ -42,24 +44,28 @@ body {
     cursor: pointer;
     transition: 0.7s;
 }
+.section {
+    width: 960px;
+}
 
-article {
+/* article {
     display: inline-block;
     width: 420px;
     margin-bottom: 140px;
+} */
+.article-area:nth-child(2n) {
+   margin-right: 0px;
 }
 
-.article-left:nth-last-of-type(2),
-.article-right:nth-last-of-type(1){
-    margin-bottom: 57px;
-}
+ .article-area {
+    margin-right: 60px;
+    display: inline-block;
+    width: 420px;
+    margin-bottom: 140px;
+} 
 
-.article-left{
-    margin-right: 30px;
-}
-
-.article-right{
-    margin-left: 30px;
+.article-area:nth-child(2) {
+    margin-right:0px;
 }
 
 .art-picname{
@@ -79,7 +85,7 @@ color: #b4ad9e;
 }
 
 .art-title{
-    margin-bottom: 40px;
+    margin: 0;
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
@@ -88,6 +94,7 @@ color: #b4ad9e;
 .art-text{
     font-size: 14px;
     line-height: 24px;
+    margin: 0;
 
 }
 
@@ -101,4 +108,11 @@ button{
     line-height: 24px;
     display: block;
     margin: auto;
+    margin-bottom: 70px;
+}
+button:hover {
+    color: #68cbf8;
+    transition: all 0.7s;
+    cursor: pointer;
+
 }
