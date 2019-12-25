@@ -1,0 +1,186 @@
+
+.wrapper  {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto ;
+    margin-top: 37px;
+    font-size: 0;
+}
+
+.logo {
+    float: left;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 30px;
+
+}
+ul {
+    font-size: 0;
+    padding: 0;
+}
+
+.logo::first-letter {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto Light', sans-serif;
+    color: #1abc9c;
+
+
+}
+.navigation_list {
+    float: right;
+}
+
+.header_clearfix::after {
+    content: "";
+    clear: right;
+    display: table;
+  }
+header {
+    margin-bottom: 115px;
+}
+
+h2::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 33px;
+  }
+  .product_link:hover>div {
+      background-color: #1abc9c;
+  }
+
+.navigation_list_item{
+    text-transform: uppercase;
+    display: inline-block;
+}
+.product_link {
+    text-decoration: none;
+}
+
+.navigation_list_item a{
+    font-size: 14px;
+    font-family: 'Open Sans Bold', sans-serif;
+    text-decoration: none;
+    color: #626262;
+    margin-right: 32px;
+}
+.navigation_list_item a:hover {
+    color: #1abc9c;
+}
+.navigation_list_item a:focus {
+    color: #ff0000;
+}
+h2.section_name {
+    display: block;
+    text-align: center;
+    
+}
+
+.section_name {
+    font-family: "roboto black";
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #515151;   
+
+}
+
+
+.section_name::after {
+    display: block;
+    width: 160px;
+    height: 7px;
+    background-color: #1abc9c;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 33px;
+    margin-bottom: 92px;
+}
+
+.featured-products__list-item {
+    display: inline-block;
+    width: 255px;
+    padding-bottom: 30px;
+    
+}
+.featured-products__list-item:not(:nth-child(4n)) {
+    margin-right: 30px;
+}
+
+.product_name, .product_price {
+    text-transform: uppercase;
+    font-family: "Roboto Black";
+    font-size: 18px;
+    display: inline;
+    line-height: 40px;
+}
+.product_name {
+    padding-left: 13px;
+}
+.product_price {   
+    background-color: rgba(209, 209, 209, 0.4);
+    float: right;
+    line-height: 40px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.product_bottom-text {
+    color: #ffffff;
+    background-color: #323232;
+}
+
+.news_list-item {
+    display: inline-block;
+    width: 350px;
+}
+.news_list-item {
+    float: left;
+    margin-bottom: 30px;
+}
+.news_list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.news_link {
+    text-decoration: none;
+}
+.news_name {
+    font-family:  arial, sans-serif;
+    font-size: 20px;
+    color: #626262ec;
+}
+.news_name::after{
+
+    content: '';
+    display: block;
+    width: 136px;
+    height: 3px;  
+    margin-top: 16px;
+    background-color: #1abc9c;
+    border-radius: 2px;
+
+}
+.news_bottom-text {
+    font-size: 16px;  
+    color: #626262;  
+    font-family:  arial, sans-serif;
+}
+
+
+.read_more_news {
+    font-family: "Open Sans light" sans-serif;
+    background-color: #4ec6ab;
+    color: #ffffff;
+    font-weight: 1;
+}
+.read_more_news {
+    line-height: 48px;
+    width: 160px;
+    border:  10px;
+    border-radius: 5px;
+}
+
+
