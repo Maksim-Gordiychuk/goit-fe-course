@@ -1,10 +1,6 @@
-
 .wrapper  {
-    width: 100%;
     max-width: 1110px;
     margin: 0 auto ;
-    margin-top: 37px;
-    font-size: 0;
 }
 
 .logo {
@@ -46,7 +42,6 @@ h2::after {
     content: "";
     clear: both;
     display: table;
-    margin-top: 33px;
   }
   .product_link:hover>div {
       background-color: #1abc9c;
@@ -60,12 +55,15 @@ h2::after {
     text-decoration: none;
 }
 
-.navigation_list_item a{
+.navigation_list_item a {
     font-size: 14px;
     font-family: 'Open Sans Bold', sans-serif;
     text-decoration: none;
     color: #626262;
+}
+.navigation_list_item:not(:last-child){
     margin-right: 32px;
+    
 }
 .navigation_list_item a:hover {
     color: #1abc9c;
@@ -76,17 +74,13 @@ h2::after {
 h2.section_name {
     display: block;
     text-align: center;
-    
-}
-
-.section_name {
     font-family: "roboto black";
     font-size: 48px;
     text-transform: uppercase;
-    color: #515151;   
-
+    color: #515151; 
+    margin: 0;
+    
 }
-
 
 .section_name::after {
     display: block;
@@ -102,8 +96,11 @@ h2.section_name {
 .featured-products__list-item {
     display: inline-block;
     width: 255px;
-    padding-bottom: 30px;
     
+    
+}
+.featured-products__list-item:nth-child(-n+4) {
+    margin-bottom: 32px;
 }
 .featured-products__list-item:not(:nth-child(4n)) {
     margin-right: 30px;
@@ -131,29 +128,32 @@ h2.section_name {
     color: #ffffff;
     background-color: #323232;
 }
+.news_section {
+    padding-top: 105px;
+
+}
 
 .news_list-item {
     display: inline-block;
     width: 350px;
 }
+
 .news_list-item {
     float: left;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
+
 .news_list-item:not(:last-child) {
     margin-right: 30px;
 }
 
-.news_link {
-    text-decoration: none;
-}
 .news_name {
     font-family:  arial, sans-serif;
     font-size: 20px;
     color: #626262ec;
+    margin: 0;
 }
 .news_name::after{
-
     content: '';
     display: block;
     width: 136px;
@@ -169,18 +169,18 @@ h2.section_name {
     font-family:  arial, sans-serif;
 }
 
-
-.read_more_news {
+.read_more_news  {
     font-family: "Open Sans light" sans-serif;
     background-color: #4ec6ab;
     color: #ffffff;
-    font-weight: 1;
-}
-.read_more_news {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
     line-height: 48px;
     width: 160px;
     border:  10px;
     border-radius: 5px;
 }
+
 
 
