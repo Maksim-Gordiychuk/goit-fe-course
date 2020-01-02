@@ -20,7 +20,7 @@ ul {
 .logo::first-letter {
     font-size: 30px;
     font-weight: 700;
-    font-family: 'Roboto Light', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #1abc9c;
 
 
@@ -29,7 +29,7 @@ ul {
     float: right;
 }
 
-.header_clearfix::after {
+.clearfix::after {
     content: "";
     clear: right;
     display: table;
@@ -45,6 +45,7 @@ h2::after {
   }
   .product_link:hover>div {
       background-color: #1abc9c;
+      transition: 0.4s;
   }
 
 .navigation_list_item{
@@ -67,7 +68,9 @@ h2::after {
 }
 .navigation_list_item a:hover {
     color: #1abc9c;
+    transition: 0.4s;
 }
+
 .navigation_list_item a:focus {
     color: #ff0000;
 }
@@ -79,6 +82,7 @@ h2.section_name {
     text-transform: uppercase;
     color: #515151; 
     margin: 0;
+    margin-bottom: 92px;
     
 }
 
@@ -90,21 +94,20 @@ h2.section_name {
     border-radius: 4px;
     margin: auto;
     margin-top: 33px;
-    margin-bottom: 92px;
 }
 
 .featured-products__list-item {
     display: inline-block;
     width: 255px;
-    
-    
 }
 .featured-products__list-item:nth-child(-n+4) {
     margin-bottom: 32px;
 }
+
 .featured-products__list-item:not(:nth-child(4n)) {
     margin-right: 30px;
 }
+
 
 .product_name, .product_price {
     text-transform: uppercase;
@@ -170,7 +173,7 @@ h2.section_name {
 }
 
 .read_more_news  {
-    font-family: "Open Sans light" sans-serif;
+    font-family: 'Open Sans' sans-serif;
     background-color: #4ec6ab;
     color: #ffffff;
     text-decoration: none;
@@ -180,6 +183,15 @@ h2.section_name {
     width: 160px;
     border:  10px;
     border-radius: 5px;
+}
+.read_more_news:hover {
+    content: '';
+    transition: 0.5s;
+    background-color: tomato;
+    color: #323232;
+    font-weight: 700;
+    
+    
 }
 
 
