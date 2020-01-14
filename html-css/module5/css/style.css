@@ -1,0 +1,378 @@
+
+body {
+
+    /* max-width: 100%; */
+    margin: 0;
+}
+.wrapper  {
+    width: 100%;
+    margin: 0 auto ;
+}
+
+main {
+    max-width: 100%;
+
+    padding-bottom: 50px;
+}
+header {
+    margin-bottom: 38px;
+    text-align: center;
+    
+}
+
+.logo {
+    float: left;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 30px;
+    padding-left: 30px;
+
+}
+ul {
+    font-size: 0;
+    
+}
+a {
+    text-decoration: none;
+}
+
+.logo::first-letter {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #1abc9c;
+}
+.navigation_list {
+    float: right;
+    font-weight: 700;
+    padding-right: 10px;
+      
+}
+.navigation_list_item{
+    text-transform: uppercase;
+    display: inline-block;
+} 
+.navigation_list_item a {
+    font-size: 14px;
+    font-family: 'Open Sans Bold', sans-serif;
+    text-decoration: none;
+    color: #0f0101;
+}
+.navigation_list_item:not(:last-child){
+    margin-right: 32px;
+    
+}
+.navigation_list_item a:hover {
+    color: #1abc9c;
+    transition: 0.3s;
+}
+
+.navigation_list_item a:focus {
+    color: rgba(25, 53, 211, 0.623);
+}
+.clearfix::after {
+    content: "";
+    clear: right ;
+    display: table;
+  }
+
+  .slider {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin: auto;
+}
+.slider-ctrl {
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    border: none;
+    height: 100px;
+    width: 100px;
+    background-color: #1abc9c7e;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    
+}
+.slider-ctrl:hover {
+    border-radius: 20px;
+    background-color: rgb(91, 255, 41);
+    transition: 0.3s;
+}
+.slider-ctrl-prev {
+    left: 95px;
+    background-image: url(https://cdn.icon-icons.com/icons2/38/PNG/512/back_arrow_5821.png); 
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+
+    
+}
+.slider-ctrl-next {
+    right: 95px;
+    background-image: url(https://cdn.icon-icons.com/icons2/38/PNG/512/forwardarrow_haciaadelante_4836.png); 
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+    
+    
+}
+.slides {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.slides-item {
+    position: relative;
+}
+.slides-image {
+    /* width: 1290px; */
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+    filter: brightness(0.5);
+}
+.slides-descr {
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 0;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.slide-comment {
+    position: absolute;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    line-height: 0;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    top: 55%;
+    right: 150px;
+}
+main {
+    background-color: #e9f0fd;
+}
+section {
+    width: 1170px;
+    margin: auto;
+}
+h2 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #515151;
+
+}
+h2::after {
+    content: "";
+    display: block;
+    width: 160px;
+    height: 7px;
+    background-color: #1abc9c;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 33px;
+}
+.new-products-list {
+    padding: 0;
+    margin-left: 30px;
+}
+
+.news_list-item {
+    display: inline-block;
+    margin-right: 30px;
+    padding: 0;
+    width: 255px;
+    position: relative;
+    text-align: center;
+}
+.news_list-item:last-child {
+    margin-right: 0px;
+}
+.product-name, .product--price {
+    text-transform: uppercase;
+    font-family: "Roboto Black";
+    font-size: 18px;
+    display: inline;
+    line-height: 40px;
+}
+.product-name {
+    padding-left: 13px;
+}
+.product-price {   
+    background-color: rgba(209, 209, 209, 0.4);
+    float: right;
+    line-height: 40px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.news_bottom-text {
+    font-size: 18px;  
+    color: #ffffff;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #323232;
+    width: 100%;
+}
+.product-link:hover>.news_bottom-text {
+    background-color: #1abc9c;
+    transition: 0.4s;
+}
+.news_list-item:hover>.window{
+    background-color: rgba(0, 0, 0, 0.432);
+    transition: 0.5s;
+    display: block;
+}
+.window  {
+    display: none;
+    position: absolute;
+}
+
+.news_list-item:hover>.icons {
+    opacity: 0.9;
+    transition: 0.4s;
+}
+div.window:hover>div.news_bottom-text {
+    background-color: #1abc9c;
+    transition: 0.4s;
+}
+
+.news_list-item:hover>.button-busket {
+    opacity: 0.9;
+    transition: 0.4s;
+}
+.icons a:hover {
+    background-color: #66ff00;
+    transition: 0.4s;
+    background-size: 30px;
+    border: solid 1px #fa1924;
+    border-radius: 10px;
+}
+
+.button-busket:hover {
+    background-color: #66ff00;
+    color: #0f0101;
+    font-size: 16px;
+    font-weight: 700;
+    background-size: 25px;
+    border: solid 1px #fa1924;
+    border-radius: 10px ;
+}
+
+.icons {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 200;
+
+}    
+.icons li {
+    display: inline-block;
+    margin-right: 2px;
+    
+}
+.icons a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #323232;
+    border: solid 1px #f1ee2c;
+}
+.icons-like {
+    background-image: url(https://cdn.icon-icons.com/icons2/317/PNG/512/heart-icon_34407.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+}
+.icons-mix {
+    background-image: url(https://cdn.icon-icons.com/icons2/1094/PNG/512/doublearrow5_78515.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+}
+.icons-clock {
+    background-image: url(https://cdn.icon-icons.com/icons2/567/PNG/512/clock_icon-icons.com_54407.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+}
+.button-busket {
+    border: solid 1px #f1ee2c;
+    background-color: #323232;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    text-align:right;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    width: 165px;
+    height: 65px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(https://cdn.icon-icons.com/icons2/1808/PNG/512/shopping-basket_115095.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 10px ;
+    transition: 0.4s;
+}
+.window {
+    width: 230px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -13%);
+   
+}
+
+span {
+    padding-right:  10px;
+}
+
+
+.footer-area {
+    height: 88px;
+    width: 100%;
+    background-color: #323232;
+}
+.footer-text {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 30px;
+}
+.footer-link {
+    cursor: pointer;
+}
+.footer-link:hover {
+    color: #1abc9c;
+    transition: 0.4s;
+}
