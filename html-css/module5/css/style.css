@@ -1,17 +1,18 @@
 
 body {
-
-    /* max-width: 100%; */
     margin: 0;
 }
 .wrapper  {
-    width: 100%;
     margin: 0 auto ;
+    width: 100%;
+}
+.container {
+    margin: 0 auto;
+    /* width: 100%; */
 }
 
 main {
-    max-width: 100%;
-
+    /* max-width: 100%; */
     padding-bottom: 50px;
 }
 header {
@@ -31,8 +32,7 @@ header {
 
 }
 ul {
-    font-size: 0;
-    
+    font-size: 0;   
 }
 a {
     text-decoration: none;
@@ -78,11 +78,12 @@ a {
     display: table;
   }
 
-  .slider {
+.slider {
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     height: 600px;
     margin: auto;
+    
 }
 .slider-ctrl {
     cursor: pointer;
@@ -103,20 +104,26 @@ a {
     transition: 0.3s;
 }
 .slider-ctrl-prev {
-    left: 95px;
+    left: 100px;
     background-image: url(https://cdn.icon-icons.com/icons2/38/PNG/512/back_arrow_5821.png); 
     background-repeat: no-repeat;
     background-size: 40px;
     background-position: center;
-
-    
+    margin: 0px;
+    padding: 0px;
+    transform: translateY(-50%);
+    top: 50%;
 }
 .slider-ctrl-next {
-    right: 95px;
+    right: 100px;
     background-image: url(https://cdn.icon-icons.com/icons2/38/PNG/512/forwardarrow_haciaadelante_4836.png); 
     background-repeat: no-repeat;
     background-size: 40px;
     background-position: center;
+    margin: 0px;
+    padding: 0px;
+    transform: translateY(-50%);
+    top: 50%;
     
     
 }
@@ -129,7 +136,7 @@ a {
     position: relative;
 }
 .slides-image {
-    /* width: 1290px; */
+    display: block;
     height: 600px;
     object-fit: cover;
     width: 100%;
@@ -190,7 +197,7 @@ h2::after {
 }
 .new-products-list {
     padding: 0;
-    margin-left: 30px;
+    text-align: center;
 }
 
 .news_list-item {
@@ -259,12 +266,13 @@ div.window:hover>div.news_bottom-text {
     opacity: 0.9;
     transition: 0.4s;
 }
-.icons a:hover {
-    background-color: #66ff00;
+.icons button:hover {
+    background-color: #75e62a;
     transition: 0.4s;
     background-size: 30px;
     border: solid 1px #fa1924;
-    border-radius: 10px;
+    border-radius: 15px;
+    opacity: 1;
 }
 
 .button-busket:hover {
@@ -272,9 +280,13 @@ div.window:hover>div.news_bottom-text {
     color: #0f0101;
     font-size: 16px;
     font-weight: 700;
-    background-size: 25px;
+    background-size: 20px;
     border: solid 1px #fa1924;
     border-radius: 10px ;
+    opacity: 1;
+}
+button {
+    opacity: 0.8;
 }
 
 .icons {
@@ -294,7 +306,7 @@ div.window:hover>div.news_bottom-text {
     margin-right: 2px;
     
 }
-.icons a {
+.icons button {
     display: block;
     width: 50px;
     height: 50px;
@@ -302,21 +314,21 @@ div.window:hover>div.news_bottom-text {
     border: solid 1px #f1ee2c;
 }
 .icons-like {
-    background-image: url(https://cdn.icon-icons.com/icons2/317/PNG/512/heart-icon_34407.png);
+    background-image: url(../img/1.png);
     background-repeat: no-repeat;
-    background-size: 40px;
+    background-size: 35px;
     background-position: center;
 }
 .icons-mix {
-    background-image: url(https://cdn.icon-icons.com/icons2/1094/PNG/512/doublearrow5_78515.png);
+    background-image: url(../img/2.png);
     background-repeat: no-repeat;
-    background-size: 40px;
+    background-size: 35px;
     background-position: center;
 }
 .icons-clock {
-    background-image: url(https://cdn.icon-icons.com/icons2/567/PNG/512/clock_icon-icons.com_54407.png);
+    background-image: url(../img/3.png);
     background-repeat: no-repeat;
-    background-size: 40px;
+    background-size: 35px;
     background-position: center;
 }
 .button-busket {
@@ -329,15 +341,15 @@ div.window:hover>div.news_bottom-text {
     font-weight: 600;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
-    width: 165px;
+    width: 155px;
     height: 65px;
     position: absolute;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(https://cdn.icon-icons.com/icons2/1808/PNG/512/shopping-basket_115095.png);
+    background-image: url(../img/4.png);
     background-repeat: no-repeat;
-    background-size: 40px;
+    background-size: 35px;
     background-position: 10px ;
     transition: 0.4s;
 }
