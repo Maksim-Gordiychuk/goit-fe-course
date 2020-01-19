@@ -11,8 +11,15 @@ ul {
 a {
     text-decoration: none;
 }
+h2,p {
+    margin: 0;
+}
+
 header {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;    
+}
+.head {
+    padding-bottom: 50px;
 }
 .site_logo {
     font-size: 30px;
@@ -25,10 +32,12 @@ header {
 }
 .nav_links {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
     list-style: none;
     text-decoration: none;
     font-size: 14px;
+    width: 50%;
 }
 
 h2 {
@@ -57,23 +66,24 @@ h2 {
 }
 
 .navigation_list_item a{
-    margin-right: 58px;
+    display: block;
     color: #95e1d3;
 }
 
-li.navigation_list_item::after {
+.navigation_list_item::after {
     content: "";
     display: block;
-    margin-right: 58px;
     margin-top: 0;
     height: 3px;
     border-radius: 6px;
     background-color: transparent;
+    width: 100%;
 }
 .navigation_list_item:hover::after {
     background-color: #f38181;
-    transform: translateY(30px);
+    transform: translateY(20px);
     transition: 200ms;
+    width: 100%;
 }
 .services {
     width: 1182px;
@@ -92,6 +102,7 @@ li.navigation_list_item::after {
 }
 .headers_text {
  text-align: center;
+ padding-bottom: 100px;
 }
 .serv_list {
     display: flex;
@@ -104,6 +115,7 @@ li.navigation_list_item::after {
 }
 .article {
     padding-left: 60px;
+    padding-bottom: 50px;
 }
 
 .alarm {
@@ -132,6 +144,7 @@ li.navigation_list_item::after {
 }
 .team {
     margin-top: 100px;
+    padding-bottom: 200px;
 }
 
 .team_heading {
@@ -145,7 +158,6 @@ li.navigation_list_item::after {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 100px;
     text-align: center;
 }
 .people_name {
@@ -153,19 +165,23 @@ li.navigation_list_item::after {
     font-size: 14px;
     text-transform: uppercase;
     color: #333333;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 .team_position {
     font-family: 'Roboto' , sans-serif;
     font-style: italic;
     font-weight: 300;
     color: #999999;
+
 }
+
 .window {
     display: flex;
     width: 100%;
     height: 470px;
     position: absolute;
-    background: linear-gradient(to bottom, #ef8b8a, #e5cf81);
+    background: linear-gradient(to bottom, #ef8c8abe, #e5cf81b9);
     opacity: 0;
     justify-content: center;
     align-items: center;
@@ -179,13 +195,13 @@ li.navigation_list_item::after {
 }
 .team_list_item {
     position: relative;
-    opacity: 0.9;
-    height: 100%;
+    height: 470px;
 }
-.team_list_item:hover .window {
-    opacity: 0.9;
+.team_list_item:hover .window{
+    opacity: 1;
     transform: translateX(-12px) translateY(-12px);
     transition: 200ms;
+    
 }
 .team_list_item:hover img {
     transform: translateX(-12px) translateY(-12px);
@@ -197,15 +213,6 @@ li.navigation_list_item::after {
 }
 .qwerty:hover {
     background-color: #95e1d3;
-}
-.bluehover {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background: #000;
-    z-index: 1;
-    
-
 }
 
 .qwerty{  
@@ -237,23 +244,26 @@ li.navigation_list_item::after {
 }
 
 footer {
+    height: 50px;   
     display: block;
     border-top: 1px solid #999999;
     display: flex;
     justify-content: space-between;
-    margin-top: 90px;
-    padding-top: 12px;
+    padding: 12px 0 12px;
+    align-items: center;
     
 }
 
 .footer_text {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+
 }
 
 ::placeholder {
     text-align: center;
 }
+
 input {
     width: 228px;
     padding: 0;
@@ -262,8 +272,10 @@ input {
     font-style: italic;
     font-size: 15px;
 }
+
 .footer_form {
     display: flex;  
+    height: 100%;
 }
 
 .subsribe_button {
