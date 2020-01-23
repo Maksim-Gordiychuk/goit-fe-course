@@ -1,0 +1,172 @@
+h2 {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+.description, .bottom-description {
+    font-family: 'Satisfy', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+ul {
+list-style: none;
+padding: 0;
+}
+a {
+    text-decoration: none;
+    padding: 0;
+}
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 112px;
+}
+.site-logo {
+    color: #fed136;
+    font-family: 'Gochi Hand', Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.nav-list {
+    display: flex;
+    width: 485px;
+    justify-content: space-around;
+}
+.nav-links {
+    color: #222222;
+    text-transform: uppercase; 
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.nav-links:hover {
+    color: #fed136;
+    transition: 200ms;
+}
+.services-heading {
+    text-transform: uppercase;
+    text-align: center;
+}
+.description {
+    text-align: center;
+}
+.services {
+    padding-bottom: 110px;
+}
+.services-list {
+    display: flex;
+    justify-content: space-between;
+}
+.services-list-item {
+    width: 290px;
+    height: 232px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.services-name {
+    text-align: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+}
+.services-description {
+    color: #b6b6b6;
+    text-align: center;
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.container {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 110px;
+}
+
+.contact_heading {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.bottom-description {
+    text-align: center;
+    color: #6c6c6c;
+}
+.input-list {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    width: 455px;
+    height: 55px;
+    margin-top: 30px;
+    border: none;
+    outline: none
+}
+input:focus {
+    border-radius: 5px;
+    background-color: #fed136;
+    transition: 200ms;
+}
+.valid:invalid {
+    border: 2px solid rgb(255, 0, 0);
+}
+.valid:focus:valid {
+    border: 2px solid rgb(0, 255, 42);
+}
+
+textarea {
+    width: 455px;
+    margin-top: 30px;
+    outline: none;
+    resize: none;
+}
+textarea:focus {
+    background-color: #fed136;
+    transition: 200ms;
+    border-radius: 5px;
+
+}
+.form-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+::placeholder {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+button {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #fed136;
+    color: #ffffff;
+    text-align: center;
+    width: 240px;
+    height: 65px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+}
+.button {
+    margin: 30px auto;
+}
+.contact_us {
+    background-image: url(../img/bcg.jpg);
+    height: 675px;
+}
+
