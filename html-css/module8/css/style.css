@@ -1,0 +1,172 @@
+.bg {
+    background-image: url(../img/coverbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 540px;
+    padding: 0 10px;
+    
+}
+
+.container {
+    padding-top: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head-buttons {
+    display: flex;
+    justify-content: center;
+
+}
+.site-logo {
+    margin-top: 118px;
+    text-align: center;
+}
+.head-click {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    height: 36px;
+    width: 90px;
+    color: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+.head-click:hover {
+    border: 2px solid #ffffff;
+    transition: 200ms;
+    outline: none;
+}
+.logo {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+}
+h2 {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    
+}
+.head-descr {
+    width: 220px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+
+}
+.find-click {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #ff4e50;
+    height: 40px;
+    width: 280px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+h3 {
+    text-align: center;
+    font-size: 22px;
+}
+ul {
+    padding: 0;
+}
+.team-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.team-list-item {
+    width: 220px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #333333;
+}
+    
+
+.name {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+}
+.about {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b9b9b9;
+}
+
+.bottom-button {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff0000;
+    background-color: transparent;
+    height: 40px;
+    width: 280px;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    cursor: pointer;
+}
+@media (min-width: 750px){
+    .head {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+    .site-logo {
+        margin-top: 0;     
+    }
+    .team-list {
+        width: 656px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .team-list-item {
+        width: 220px;
+    }
+
+}
+
+@media (min-width: 940px) {
+    .team-list {
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: auto;
+    }
+    .team-list-item {
+        width: 220px;
+    }
+    .head-click {
+        font-weight: 700;
+    }
+
+}
