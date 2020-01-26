@@ -61,12 +61,28 @@ a {
 .services-list {
     display: flex;
     justify-content: space-between;
+    padding-top: 100px;
 }
 .services-list-item {
     width: 290px;
     height: 232px;
     text-align: center;
     padding-top: 60px;
+}
+.basket {
+    background-image: url(../img/Icon-Basket.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.group {
+    background-image: url(../img/Group1.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.locked {
+    background-image: url(../img/Icon-Locked.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 
 .services-name {
